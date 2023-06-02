@@ -1,0 +1,49 @@
+.he h1
+{
+    
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.userNavbar
+{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 120px;
+    width: 100%;
+    top: 0px;
+    z-index: 3;
+    position: sticky;
+   
+}
+.LI a:hover{
+    color: rgb(101, 93, 93);
+    text-decoration: underline 2px;   
+
+}
+
+ul li
+{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    list-style-type: none;
+    
+}
+    
+.LI ul 
+{
+   display: flex;
+   flex-direction: row;
+   margin-left: 800px; 
+   font-weight: bold;
+   color: black;
+}
+
+
+.LI a
+{
+    color: black;
+}
